@@ -50,7 +50,7 @@ class FeedbackRequest(BaseModel):
 # Root route to confirm backend is working
 @app.get("/")
 def read_root():
-    return {"message": "Hello, Marium! Backend is working 🎉"}
+    return {"message": "Hello,Backend is working 🎉"}
 
 # Route to return simple metrics
 @app.get("/metrics")
