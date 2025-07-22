@@ -17,15 +17,6 @@ I researched various deployment strategies for both local and cloud deployment:
 
 - **Local Deployment:** I created a `Dockerfile` to containerize the entire FastAPI application. This ensures a consistent environment across development and production machines.
   
-- **Cloud Deployment (Researched Only):**
-  - **Render:** Simple to use for full-stack apps, has free tier, automatic deployment from GitHub.
-  - **Heroku:** Easy setup for beginners but limited on free tier.
-  - **AWS EC2:** Gives full control but requires manual server management.
-  - **Google Cloud Run:** Good for scaling containerized apps.
-  - **Verdict:** Render and Google Cloud Run are more developer-friendly for smaller projects.
-
-However, I haven't deployed the project to the cloud yet. It's only tested locally via Docker.
-
 ---
 
 ### 3. **Logging & Observability (Basic)**  
@@ -35,7 +26,7 @@ I implemented basic logging using Python’s `logging` module inside the FastAPI
 - Errors in API responses
 - Internal model inference logs (when integrated)
 
-I haven’t added advanced observability features like Prometheus/Grafana or centralized logging tools (e.g., Logstash/ELK), as the scope is currently limited.
+I haven’t added advanced observability features like Prometheus/Grafana or centralized logging tools, as the scope is currently limited.
 
 ---
 
